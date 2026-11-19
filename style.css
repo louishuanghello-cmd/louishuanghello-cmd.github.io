@@ -6,3 +6,20 @@
 /* Portrait framing keeps the original photograph intact. */
 .portrait-crop{position:relative;overflow:hidden;filter:none}.portrait-crop img{position:absolute;width:265%;max-width:none;height:auto;left:-141%;top:-2%;filter:saturate(.85)}
 @media(max-width:760px){.portrait-crop{aspect-ratio:4/5}.story .portrait-crop{aspect-ratio:4/5}}
+
+.projects-page {
+  font-family: "Quattrocento Sans", system-ui, sans-serif;
+}
+
+.projects-page :is(h1, h2, .letter-art) {
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.projects-page .page-title h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.projects-page .project-long h2 {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+}
